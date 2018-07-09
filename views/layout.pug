@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" type="text/javascript")
+  body
+    section(class='hero is-primary is-fullheight')
+      include partials/header
+      block content
+      include partials/footer
