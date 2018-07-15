@@ -7,5 +7,5 @@ setInterval(() => {
   doc.classList.add(`is-${background}`);
 
   hiBtn.classList.remove(hiBtn.classList[2]);
-  hiBtn.classList.add(`is-${background}}`);
+  hiBtn.classList.add(`is-${background}`);
 }, 5000);
