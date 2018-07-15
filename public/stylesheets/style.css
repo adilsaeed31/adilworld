@@ -6419,4 +6419,10 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.has-image-centered {
+  margin: auto; }
+
+.has-border-radius {
+  border-radius: 48px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,10 @@ extends layout
 
 block content
   div(class="hero-body")
-    div(class="container has-text-centered")
-      h1(class="title")=title
-      h2(class="subtitle is-bold")=subtitle
+    div(class="container")
+      div(class="columns")
+        div(class="column has-text-centered has-image-centered is-half is-offset-one-quarter")
+          figure(class="image is-96x96 has-image-centered")
+            img(class="has-border-radius" src="/images/adil.jpeg")
+          h1(class="title")=title
+          h2(class="subtitle is-bold")=subtitle
