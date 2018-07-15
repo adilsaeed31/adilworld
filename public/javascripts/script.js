@@ -1,4 +1,4 @@
-const BG_ARR = ['link', 'primary', 'info', 'danger', 'warning', 'success'];
+const BG_ARR = ['link', 'primary', 'info', 'danger', 'warning', 'success', 'dark'];
 setInterval(() => {
   let doc = document.getElementById('app');
   let hiBtn = document.getElementById('hiBtn')
