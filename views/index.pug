@@ -1,4 +1,7 @@
 extends layout
 
 block content
-  p Welcome to #{title}
+  div(class="hero-body")
+    div(class="container has-text-centered")
+      h1(class="title")=title
+      h2(class="subtitle is-bold")=subtitle
