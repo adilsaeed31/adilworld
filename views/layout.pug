@@ -6,7 +6,7 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" type="text/javascript")
   body
-    section(id="app" class=`hero is-${background} is-fullheight`)
+    section(id="app" class=`hero is-fullheight is-${background}`)
       include partials/header
       block content
       script(src="/javascripts/script.js")
