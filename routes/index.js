@@ -8,8 +8,8 @@ router.get('/', function(req, res) {
     pageTitle: '@dil | Full Stack Developer Web/Mobile/Desktop & Technical Lead',
     logo: '@dil',
     background: BG_ARR[Math.floor(Math.random() * BG_ARR.length)],
-    title: 'Hi, Welcome, Your visit is valueable to me.',
-    subtitle: 'I am, Fullstack developer Web/Mobile/Desktop & Technical Lead.'
+    title: 'Hi, Welcome, Your visit is valuable to me.',
+    subtitle: 'I am a Full Stack developer Web, Mobile & Desktop and Technical Lead of your next start up.'
   });
 });
 
