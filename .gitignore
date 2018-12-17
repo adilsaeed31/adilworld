@@ -61,4 +61,4 @@ typings/
 .next
 
 # Webstorm .idea folder
-.idea
+.idea/
