@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "standard",
+    "prettier",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "space-before-function-paren": "off",
+    "new-cap": "off",
+    "prettier/prettier": 2,
+    "semi": "off"
+  }
+}
