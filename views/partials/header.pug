@@ -1,35 +1,35 @@
 div(class="hero-head")
-    nav(class="navbar")
+    header(class="navbar")
         div(class="container")
             div(class="navbar-brand")
-              a(class="navbar-item")
-                h1(class="title" title="Muhammad Adil")=logo
-        
-              span(class="navbar-burger burger" data-target="navbarMenuHeroA")
-                  span
-                  span
-                  span
+                a(class="navbar-item")
+                    h1(class="title" title="Muhammad Adil")=logo
 
-            div(id="navbarMenuHeroA" class="navbar-menu")
+                span(class="navbar-burger burger" data-target="adilHeroNavBar" onclick='handleMobileNav(this)')
+                    span
+                    span
+                    span
+
+            div(id="adilHeroNavBar" class="navbar-menu")
                 div(class="navbar-end")
                     a(class="navbar-item is-active" title="Home")
-                      span(class="icon")
-                        i(class="fas fa-home")
+                        span(class="icon")
+                            i(class="fas fa-home")
                     a(class="navbar-item" title="Blog")
-                      span(class="icon")
-                        i(class="fab fa-wordpress")
+                        span(class="icon")
+                            i(class="fab fa-wordpress")
                     a(class="navbar-item" title="Github")
-                      span(class="icon")
-                        i(class="fab fa-github")
+                        span(class="icon")
+                            i(class="fab fa-github")
                     a(class="navbar-item" title="StackOverflow")
-                      span(class="icon")
-                        i(class="fab fa-stack-overflow")
+                        span(class="icon")
+                            i(class="fab fa-stack-overflow")
                     a(class="navbar-item" title="Twitter")
-                      span(class="icon")
-                        i(class="fab fa-twitter")
+                        span(class="icon")
+                            i(class="fab fa-twitter")
                     a(class="navbar-item" title="Facebook")
-                      span(class="icon")
-                        i(class="fab fa-facebook")
+                        span(class="icon")
+                            i(class="fab fa-facebook")
                     span(class="navbar-item")
                         a(id="hiBtn" class=`button is-inverted is-${background}`)
                             span(class="icon")

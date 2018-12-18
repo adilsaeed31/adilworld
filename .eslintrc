@@ -10,12 +10,16 @@
     "standard"
   ],
   "parserOptions": {
-    "ecmaVersion": 2017
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "env": {
     "node": true,
     "es6": true,
-    "jest": true
+    "jest": true,
+    "browser": true
   },
   "rules": {
     "space-before-function-paren": "off",
