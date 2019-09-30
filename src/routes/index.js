@@ -11,7 +11,7 @@ router.get('/', function(req, res) {
     background: BG_ARR[Math.floor(Math.random() * BG_ARR.length)],
     title: 'Hi, Welcome, Your visit is valuable to me.',
     subtitle:
-      'I am a Full Stack developer Web, Mobile & Desktop and Technical Lead of your next start up.'
+      'I am a Full Stack developer Web, Mobile & Desktop and Technical Lead of your next idea'
   })
 })
 
