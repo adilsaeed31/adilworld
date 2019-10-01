@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { BG_ARR } = require('../config')
+const BG_ARR = require('../config')
 
 /* GET home page. */
 router.get('/', function(req, res) {

@@ -1,4 +1,12 @@
-const { BG_ARR } = require('../../src/config/index')
+const BG_ARR = [
+  'link',
+  'primary',
+  'info',
+  'danger',
+  'warning',
+  'success',
+  'dark'
+]
 
 function handleMobileNav(obj) {
   if (obj.className.indexOf('is-active') > 0) {
@@ -25,4 +33,4 @@ setInterval(() => {
 
   hiBtn.classList.remove(hiBtn.classList[2])
   hiBtn.classList.add(`is-${background}`)
-}, 5000)
+}, 2500)
