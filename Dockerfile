@@ -6,11 +6,11 @@ WORKDIR /app
 
 COPY . .
 
-COPY Dockerfile Dockerfile
+COPY Dockerfile .
 
-COPY package.json package.json
+COPY package.json .
 
-COPY jest.config.js jest.config.js  
+COPY jest.config.js .  
 
 RUN yarn
 
