@@ -6,6 +6,12 @@ WORKDIR /app
 
 COPY . .
 
+COPY Dockerfile Dockerfile
+
+COPY package.json package.json
+
+COPY jest.config.js jest.config.js  
+
 RUN yarn
 
 CMD [ "yarn", "nm" ]
