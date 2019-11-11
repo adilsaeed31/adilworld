@@ -6,7 +6,7 @@ const BG_ARR = require('../config')
 router.get('/', function(req, res) {
   res.render('index', {
     pageTitle:
-      '@dil | Full Stack Developer Web/Mobile/Desktop & Technical Lead',
+      '@dil | Full Stack Developer Web/Mobile/Desktop/DevOps & Technical Lead',
     logo: '@dil',
     background: BG_ARR[Math.floor(Math.random() * BG_ARR.length)],
     title: 'Hi, Welcome, Your visit is valuable to me.',
