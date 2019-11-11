@@ -6,8 +6,8 @@ services:
 before_install:
   - docker build -t adilsaeed31/adilworld -f Dockerfile .
 
-script:
-  - docker run adilsaeed31/adilworld yarn test
+# script:
+#   - docker run adilsaeed31/adilworld yarn test
 
 after_success:
   - docker build -t adilsaeed31/adilworld .
