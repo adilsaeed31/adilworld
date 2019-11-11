@@ -8,8 +8,7 @@
     "lint": "eslint src --color",
     "build": "babel src --out-dir dist --ignore node_modules",
     "p": "prettier --write 'src/**/*.js'",
-    "p:w": "onchange 'src/**/*.js' -- prettier --write {{changed}}",
-    "test": "jest"
+    "p:w": "onchange 'src/**/*.js' -- prettier --write {{changed}}"
   },
   "dependencies": {
     "bulma": "^0.7.1",
@@ -35,7 +34,6 @@
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.6.0"
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
