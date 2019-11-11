@@ -8,6 +8,9 @@ services:
 before_install:
   - docker build -t adilsaeed31/adilworld  .
 
+script:
+  - echo "skipping tests"
+
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push adilsaeed31/adilworld
