@@ -1,10 +1,13 @@
 sudo: required
 
-services: 
+services:
   - docker
 
 before_install:
-  - docker build -t adilsaeed31/myworld -f Dockerfile .
+  - docker build -t adilsaeed31/adilworld -f Dockerfile .
 
 script:
-  - docker run adilsaeed31/myworld yarn start  
+  - docker run adilsaeed31/adilworld yarn start
+
+after_success:
+  - docker build -t adilsaeed31/adilworld .
