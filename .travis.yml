@@ -8,9 +8,6 @@ services:
 before_install:
   - docker build -t adilsaeed31/adilworld  .
 
-# script:
-#   - docker run adilsaeed31/adilworld yarn test
-
 after_success:
   - docker build -t adilsaeed31/adilworld .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin

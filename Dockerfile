@@ -8,8 +8,6 @@ COPY Dockerfile .
 
 COPY package.json .
 
-COPY jest.config.js .  
-
 RUN yarn
 
 COPY . .
