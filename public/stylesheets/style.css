@@ -7062,4 +7062,8 @@ label.panel-block {
     opacity: 0;
     border-radius: 50%; } }
 
+.hero.is-fullheight {
+  transition: all 2.5s;
+}
+
 /*# sourceMappingURL=style.css.map */
