@@ -33,4 +33,4 @@ setInterval(() => {
 
   hiBtn.classList.remove(hiBtn.classList[2])
   hiBtn.classList.add(`is-${background}`)
-}, 2500)
+}, 5000)
