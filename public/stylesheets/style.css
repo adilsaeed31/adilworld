@@ -7060,9 +7060,11 @@ label.panel-block {
   100% {
     transform: translateY(-1000px) rotate(720deg);
     opacity: 0;
-    border-radius: 50%; } }
+    border-radius: 50%; }
+}
 
 .hero.is-fullheight {
+  min-height: 100vh;
   transition: all 2.5s;
 }
 
